@@ -180,8 +180,14 @@ ClientBin/
 orleans.codegen.cs
 
 /node_modules
-*.pack
- ClientApp/.angular/*
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
 
 # RIA/Silverlight projects
 Generated_Code/
